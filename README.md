@@ -67,7 +67,7 @@ The number of GPUs will be detected automatically. A single RTX3090 is sufficien
 
 The trained agents used in the behavior analysis of Appendix G are available in: https://drive.google.com/file/d/1o--3m3bfdZdC7ssSnk0vF8KEFOkCKzOL
 
-Run the following commands in the `thinker` directory to visualize a run of the trained agents (replace `base` with the path of the downloaded runs)
+Run the following command in the `thinker` directory to visualize an episode of a trained agent (replace `base` with the path of the downloaded runs):
 
 ```bash
 python visual.py --load_checkpoint base --output_path test
